@@ -106,7 +106,7 @@ app.get('/sim/:text', function (req, res) {
   var request = require('request');
 var options = {
   'method': 'GET',
-  'url': `https://api.simsimi.net/v1/?key=API-blP4EedaRusH95y1-NWFLKDE7teC6PT84&text=${encodeURI(req.params.text)}&cf=false`,
+  'url': `https://api.simsimi.net/v2/?key=API-blP4EedaRusH95y1-NWFLKDE7teC6PT84&text=${encodeURI(req.params.text)}&cf=false`,
   'headers': {
     'Cookie': '__cfduid=d8d367ccb2fc7b5ce3b19e20201bcc8f71614227927; PHPSESSID=mvnf3crdcurvlocujcknj0vud1'
   }
